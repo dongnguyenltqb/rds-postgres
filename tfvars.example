@@ -4,3 +4,5 @@ rds_subnets            = ["subnet-1", "subnet-2", "subnet-3"]
 rds_availability_zones = ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"]
 rds_subnet_group_name  = "sing-rds"
 pg1_password           = "postgres"
+pg2_db_name            = "basic"
+pg2_password           = "postgres"

@@ -21,3 +21,11 @@ variable "rds_subnet_group_name" {
 variable "pg1_password" {
   type = string
 }
+
+variable "pg2_db_name" {
+  type = string
+}
+
+variable "pg2_password" {
+  type = string
+}
