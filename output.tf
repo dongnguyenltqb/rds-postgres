@@ -9,10 +9,6 @@ output "pg1_url" {
   value = aws_rds_cluster.pg1.endpoint
 }
 
-output "pg1_url" {
-  value = aws_rds_cluster.pg1.endpoint
-}
-
 output "pg2_url" {
   value = aws_db_instance.pg2.endpoint
 }
