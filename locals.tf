@@ -1,5 +1,5 @@
 locals {
-  common_tags = {
-    Group = "rds"
+  tags = {
+    Component = "RDS"
   }
 }

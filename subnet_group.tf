@@ -1,8 +1,5 @@
-resource "aws_db_subnet_group" "group" {
-  name       = var.rds_subnet_group_name
+resource "aws_db_subnet_group" "this" {
+  name       = var.name
   subnet_ids = var.rds_subnets
-
-  tags = {
-    Name = var.rds_subnet_group_name
-  }
+  tags       = merge(local.tags, var.tags)
 }
